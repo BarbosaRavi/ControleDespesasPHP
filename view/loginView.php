@@ -5,7 +5,7 @@
     <meta charset="utf-8">
   </head>
   <body>
-      <form method="POST" action="../view/menu.php">
+      <form method="POST" action="../controller/loginControllerAuth.php">
       <input type="text" name="usuario" placeholder="Usuário">
       <input type="password" name="senha" placeholder="Senha">
       <input type="submit" name="Entrar" value="Entrar">

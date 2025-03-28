@@ -1,3 +1,11 @@
+<?php
+session_start();
+if (!isset($_SESSION["usuario"])) {
+    header("Location: ../view/login.html"); // Redireciona se não estiver logado
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

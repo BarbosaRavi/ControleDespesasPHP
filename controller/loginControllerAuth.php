@@ -12,7 +12,9 @@ if ($_POST["Entrar"]) {
 
         $authModel = new AuthModel($pdo);
         if ($authModel->login($usuario, $senha)) {
-            echo "Login aceito";
+            $_SESSION["usuario"] = $usuario; // Armazena o usuário na sessão
+            header("Location: ../view/menu.php"); // Redireciona para o menu
+            exit();
         } else {
             echo "Usuário ou senha inválidos";
         }
