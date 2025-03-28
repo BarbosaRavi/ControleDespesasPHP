@@ -10,5 +10,9 @@
       <input type="password" name="senha" placeholder="Senha">
       <input type="submit" name="Entrar" value="Entrar">
     </form>
+    <br>
+    <a href="../view/cadastro.php">
+        <button type="button">Cadastrar-se</button>
+    </a>
   </body>
 </html>
