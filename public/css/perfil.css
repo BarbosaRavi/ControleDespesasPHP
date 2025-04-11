@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D9D9D9;
+}
+
+.relatorio-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+}
+
+.tabela-container {
+    width: 50%;
+    padding: 20px;
+}
+
+.grafico-container {
+    width: 50%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+hr {
+    color: #4C4C4C;
+}
+
+ button {
+    width: 20%;
+    padding: 10px;
+    background-color: #1E27D8;
+    color: white;   
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+a {
+    cursor: pointer;
+    color: white;
+    width: 18%;
+    padding: 10px; 
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center; 
+    background-color: #1E27D8;
+}
+
+a:hover {
+    background-color: darkblue; 
+}
