@@ -1,5 +1,7 @@
 # ControleDespesasPHP
  Gerecenciamento de despesas com PHP
+
+ AINDA NÃO FUNCIONAL, ESTUDANDO E DESENVOLVENDO*
  
 Após baixar o arquivo, modifique as credenciais mysql em: config-> conexao.php 
 
